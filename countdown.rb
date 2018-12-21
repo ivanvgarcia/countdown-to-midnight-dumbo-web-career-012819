@@ -7,11 +7,10 @@ def countdown_with_sleep int
 end
 
 def countdown int
-  while int == int && int > 0
+  while int > 0
     int -= 1
     countdown_with_sleep 1
     puts "#{int} SECOND(S)!"
   end
     "HAPPY NEW YEAR!"
 end
-
